@@ -6,9 +6,9 @@ iOSでスタンプ画像を取り扱えます。
 - 回転
 
 ------
-<img src="https://github.com/downloads/kishikawakatsumi/ClassicMap/5.png" />&nbsp;
-<img src="https://github.com/downloads/kishikawakatsumi/ClassicMap/6.png" />&nbsp;
-<img src="https://github.com/downloads/kishikawakatsumi/ClassicMap/7.png" />&nbsp;
+<img src="http://one-pair.net/GitHub/StampImageView/Image1.png" width="320px" style="width: 320px;"/>&nbsp;
+<img src="http://one-pair.net/GitHub/StampImageView/Image2.png" width="320px" style="width: 320px;"/>&nbsp;
+<img src="http://one-pair.net/GitHub/StampImageView/Image3.png" width="320px" style="width: 320px;"/>&nbsp;
 
 ## Usage
 
