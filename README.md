@@ -7,8 +7,8 @@ iOSでスタンプ画像を取り扱えます。
 
 ------
 <img src="http://github.one-pair.net/StampImageView/Image1.png" width="240px" style="width: 240px;"/>&nbsp;
-<img src="http://github.one-pair.net/GitHub/StampImageView/Image2.png" width="240px" style="width: 240px;"/>&nbsp;
-<img src="http://github.one-pair.net/GitHub/StampImageView/Image3.png" width="240px" style="width: 240px;"/>&nbsp;
+<img src="http://github.one-pair.net/StampImageView/Image2.png" width="240px" style="width: 240px;"/>&nbsp;
+<img src="http://github.one-pair.net/StampImageView/Image3.png" width="240px" style="width: 240px;"/>&nbsp;
 
 ## Usage
 
