@@ -2,8 +2,10 @@ StampImageView
 ==========
 
 iOSでスタンプ画像を取り扱えます。
+- 追加
 - 拡大・縮小
 - 回転
+- 削除
 
 ------
 <img src="http://github.one-pair.net/StampImageView/Image1.png" width="240px" style="width: 240px;"/>&nbsp;
@@ -12,7 +14,6 @@ iOSでスタンプ画像を取り扱えます。
 
 ## Usage
 
-**Use view controller component**
 ```objective-c
     StampImageView *_stampImage = [[StampImageView alloc] init];
     [ _stampImage setBorderColor:0.3f color_g:0.3f color_b:0.7f ];
@@ -27,4 +28,4 @@ iOSでスタンプ画像を取り扱えます。
 
 ## License
 
-StampImageView is available under the MIT license. See the LICENSE file for more info.
+MIT License
