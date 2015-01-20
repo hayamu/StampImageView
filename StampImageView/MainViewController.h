@@ -2,12 +2,17 @@
 //  MainViewController.h
 //  StampImageView
 //
-//  Created by 早坂 紀彦 on 2014/02/01.
-//  Copyright (c) 2014年 Norihiko Hayasaka. All rights reserved.
+//  Created by Norihiko Hayasaka on 2014/02/01.
+//  Copyright (c) 2014 Norihiko Hayasaka. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "StampImageView.h"
+
 
 @interface MainViewController : UIViewController
+
+@property (nonatomic) StampImageView *stampImage;
+@property (nonatomic) IBOutlet UIImageView *backImage;
 
 @end
