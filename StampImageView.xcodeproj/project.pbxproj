@@ -18,6 +18,8 @@
 		F57E33B2189D260800CF539C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F57E33B1189D260800CF539C /* Default-568h@2x.png */; };
 		F57E33B5189D260800CF539C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57E33B3189D260800CF539C /* MainStoryboard.storyboard */; };
 		F57E33B8189D260800CF539C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E33B7189D260800CF539C /* MainViewController.m */; };
+		F57E33C0189D268700CF539C /* StampImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E33BF189D268700CF539C /* StampImageView.m */; };
+		F57E33C3189D26EF00CF539C /* Sample.png in Resources */ = {isa = PBXBuildFile; fileRef = F57E33C2189D26EF00CF539C /* Sample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		F57E33B4189D260800CF539C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F57E33B6189D260800CF539C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		F57E33B7189D260800CF539C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F57E33BE189D268700CF539C /* StampImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StampImageView.h; sourceTree = "<group>"; };
+		F57E33BF189D268700CF539C /* StampImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StampImageView.m; sourceTree = "<group>"; };
+		F57E33C2189D26EF00CF539C /* Sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 		F57E338F189D260800CF539C = {
 			isa = PBXGroup;
 			children = (
+				F57E33C1189D26EF00CF539C /* Images */,
 				F57E33A1189D260800CF539C /* StampImageView */,
 				F57E339A189D260800CF539C /* Frameworks */,
 				F57E3399189D260800CF539C /* Products */,
@@ -83,6 +89,8 @@
 		F57E33A1189D260800CF539C /* StampImageView */ = {
 			isa = PBXGroup;
 			children = (
+				F57E33BE189D268700CF539C /* StampImageView.h */,
+				F57E33BF189D268700CF539C /* StampImageView.m */,
 				F57E33AA189D260800CF539C /* MainAppDelegate.h */,
 				F57E33AB189D260800CF539C /* MainAppDelegate.m */,
 				F57E33B3189D260800CF539C /* MainStoryboard.storyboard */,
@@ -105,6 +113,14 @@
 				F57E33B1189D260800CF539C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F57E33C1189D26EF00CF539C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F57E33C2189D26EF00CF539C /* Sample.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +180,7 @@
 				F57E33B0189D260800CF539C /* Default@2x.png in Resources */,
 				F57E33B2189D260800CF539C /* Default-568h@2x.png in Resources */,
 				F57E33B5189D260800CF539C /* MainStoryboard.storyboard in Resources */,
+				F57E33C3189D26EF00CF539C /* Sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +194,7 @@
 				F57E33A8189D260800CF539C /* main.m in Sources */,
 				F57E33AC189D260800CF539C /* MainAppDelegate.m in Sources */,
 				F57E33B8189D260800CF539C /* MainViewController.m in Sources */,
+				F57E33C0189D268700CF539C /* StampImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +317,7 @@
 				F57E33BD189D260800CF539C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
